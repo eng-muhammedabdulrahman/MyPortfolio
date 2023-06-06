@@ -50,7 +50,28 @@ section {
   padding: 100px 200px;
 }
 
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Change the opacity value to adjust transparency */
+  z-index: 1;
+}
+
+.sup-main {
+  position: relative;
+  z-index: 2;
+}
+
 .main {
+  position: relative;
   width: 100%;
   min-height: 100vh;
   display: -webkit-box;
@@ -59,7 +80,7 @@ section {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background: url(/MyPortfolio/img/background.jpg) no-repeat;
+  background: url(/MyPortfolio/img/packgound2.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
